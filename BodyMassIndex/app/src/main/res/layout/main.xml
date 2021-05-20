@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+		android:layout_marginBottom="30dp"
+		android:textSize="27dp"
+		android:text="Body Mass Index Calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:layout_gravity="center" />
+
+	<EditText
+		android:inputType="numberDecimal"
+		android:layout_marginBottom="30dp"
+		android:maxLength="3"
+        android:id="@+id/edittext1"
+		android:hint="Enter your Weight [Kg]"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"/>
+
+	<EditText
+		android:inputType="numberDecimal"
+		android:layout_marginBottom="30dp"
+		android:maxLength="3"
+        android:id="@+id/edittext2"
+		android:hint="Enter your Height [Cm]"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"/>
+
+	<Button
+		android:layout_marginBottom="30dp"
+		android:id="@+id/calculate"
+		android:text="Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"/>
+
+	<TextView
+		android:layout_marginBottom="30dp"
+        android:id="@+id/textview"
+		android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:layout_gravity="center"/>
+
+</LinearLayout>
